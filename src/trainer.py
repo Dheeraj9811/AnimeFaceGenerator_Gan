@@ -145,11 +145,13 @@ class BaseGANTrainer:
                 clear_output(wait=True)        
                 bar.set_description(f"Epoch {epoch + 1}/{self.conf['epochs']} D_loss: {round(loss_D[-1], 2)} G_loss: {round(loss_G[-1], 2)}")
 
-            # Save model
-            self.save_model(epoch)
+
             self.logger({"mean_loss_G":np.mean(loss_G), "mean_loss_D":np.mean(loss_D), "time":{time.time() - start_time[-1]}})
             print(f"Epoch {epoch + 1}/{self.conf['epochs']} D_loss: {round(np.mean(loss_D), 2)} G_loss: {round(np.mean(loss_G), 2)}")
         
+        # Save model
+        self.save_model(self.conf['epochs'])
+
         ram_memory_after = psutil.virtual_memory().used // 1048576  # Convert bytes to MB
         gpu_memory_after = get_gpu_memory() if is_gpu_available() else []
 
