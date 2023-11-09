@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-03-09T12:22:39.056899",
+    "startedAt": "2023-03-09T12:22:38.064194",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "88674260+Aryman-Srivastava@users.noreply.github.com",
+    "root": "E:/pythonProject/BTP",
+    "host": "LAPTOP-1OFIFIBV",
+    "username": "shivi",
+    "executable": "d:\\miniconda\\envs\\torch_prog\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2304.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2304.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 376.25585556030273,
+        "used": 6.578556060791016
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.646209716796875
+    }
+}
