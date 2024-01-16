@@ -134,3 +134,7 @@ To increase utilization, a written loader was also used, which loads the entire 
 * 140k images, 512x512, 11 GB: [animefaces-danbooru](https://www.kaggle.com/lukexng/animefaces-512x512)
 
 * 500k images, ⩾ 512x512, 99 GB: [Aligned Anime Faces](https://www.kaggle.com/reitanaka/alignedanimefaces)
+
+
+Credit for source code : .......
+I have modified the code for my research on GAN (Generative Adversarial Network) models and conducted benchmarking.
